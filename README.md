@@ -23,5 +23,10 @@ These scripts have run against (where applicable):
 ## Notes
 Here's some reference materials I've found that were useful:
 
+ * [https://technet.microsoft.com/itpro/windows/configure/configure-windows-10-taskbar](https://technet.microsoft.com/itpro/windows/configure/configure-windows-10-taskbar)
+ * [http://kevinisms.fason.org/2017/02/replace-edge-with-internet-explorer-on.html](http://kevinisms.fason.org/2017/02/replace-edge-with-internet-explorer-on.html)
+ * [http://apppackagetips.blogspot.com/2015/11/building-clean-windows-10-reference.html](http://apppackagetips.blogspot.com/2015/11/building-clean-windows-10-reference.html)
+ * [http://ccmexec.com/2015/09/customizing-the-windows-10-start-menu-and-add-ie-shortcut-during-osd/](http://ccmexec.com/2015/09/customizing-the-windows-10-start-menu-and-add-ie-shortcut-during-osd/)
+ * [https://blogs.technet.microsoft.com/mniehaus/2015/11/11/removing-windows-10-in-box-apps-during-a-task-sequence/](https://blogs.technet.microsoft.com/mniehaus/2015/11/11/removing-windows-10-in-box-apps-during-a-task-sequence/)
 
 Made with ❤️ in MKE
