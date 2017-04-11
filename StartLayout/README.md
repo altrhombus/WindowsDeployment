@@ -20,16 +20,26 @@ To modify your taskbar, you'll have to edit the XML file manually. There's a cou
  * The <LayoutModificationTemplate> needs to have 'xmlns:taskbar="http://schemas.microsoft.com/Start/2014/TaskbarLayout"' added. See the startLayout.xml here as a reference (I organized it a little bit so it wasn't a single line, and I added the ?xml element)
  * Now scroll down to the closing </DefaultLayoutOverride> element. After this, you'll enter your taskbar modifications
 
-    <CustomTaskbarLayoutCollection PinListPlacement="Replace">  
+    <CustomTaskbarLayoutCollection PinListPlacement="Replace">
+
     <defaultlayout:TaskbarLayout>  
+    
     <taskbar:TaskbarPinList>  
+    
     <taskbar:DesktopApp DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\Accessories\Internet Explorer.lnk" />
+    
     <taskbar:DesktopApp DesktopApplicationLinkPath="%APPDATA%\Microsoft\Windows\Start Menu\Programs\System Tools\File Explorer.lnk" />
+    
     <taskbar:DesktopApp DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Outlook 2016.lnk" />
+    
     <taskbar:DesktopApp DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Skype for Business 2016.lnk" />
+    
     <taskbar:DesktopApp DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\OneNote 2016.lnk" />
+    
     </taskbar:TaskbarPinList>  
+    
     </defaultlayout:TaskbarLayout>  
+    
     </CustomTaskbarLayoutCollection> 
 
 This layout in particular removes all icons and replaces it with IE, Explorer, Outlook, Skype for Business, and OneNote.
